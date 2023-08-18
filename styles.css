@@ -1,0 +1,56 @@
+/* Réinitialisation de certaines propriétés CSS pour une meilleure cohérence entre navigateurs */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Utilisation d'une police standard, vous pouvez la remplacer par celle de votre choix */
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Couleur de fond légère pour le corps du site */
+    color: #333; /* Couleur de texte principale */
+    padding: 20px;
+}
+
+h2, h3 {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none; /* Suppression des puces de liste */
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007BFF; /* Couleur bleue standard pour les liens */
+    text-decoration: none; /* Suppression du soulignement des liens */
+}
+
+a:hover {
+    text-decoration: underline; /* Soulignement des liens au survol */
+}
+
+/* Styles pour la navigation */
+nav {
+    margin-bottom: 30px;
+}
+
+nav a {
+    margin-right: 15px;
+}
+
+/* Styles pour les sections */
+section {
+    background-color: #fff; /* Fond blanc pour chaque section */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px; /* Coins arrondis pour chaque section */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère pour donner de la profondeur */
+}
+
+/* Vous pouvez ajouter d'autres styles ou modifier ceux-ci selon vos préférences */
