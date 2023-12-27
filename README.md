@@ -1,4 +1,5 @@
 # Bienvenue sur mon profil GitHub!
+The english version [here](https://github.com/KRUSTValentin/krustvalentin/blob/main/README_EN.md)
 
 ## 👋 Introduction
 Bonjour, je suis Valentin Krust, un passionné de technologie et Technicien Support IT. J'aime explorer de nouvelles technologies, résoudre des problèmes complexes et contribuer à des projets innovants.
@@ -37,4 +38,3 @@ Bonjour, je suis Valentin Krust, un passionné de technologie et Technicien Supp
 ---
 
 Je suis toujours ouvert à de nouvelles opportunités et à collaborer sur des projets intéressants. N'hésitez pas à me contacter pour toute question ou proposition de projet!
-
