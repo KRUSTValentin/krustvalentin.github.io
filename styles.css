@@ -5,21 +5,77 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif; /* Utilisation d'une police standard, vous pouvez la remplacer par celle de votre choix */
-    line-height: 1.6;
-    background-color: #f4f4f4; /* Couleur de fond légère pour le corps du site */
-    color: #333; /* Couleur de texte principale */
-    padding: 20px;
+body, html {
+    height: 100%;
+    font-family: 'Cascadia Code', monospace; /* ou votre police de choix */
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.top-section {
+    background-color: #800000; /* Bordeaux */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    /* Remplacez avec le chemin d'accès à votre logo et ajustez la taille comme nécessaire */
+    width: 100px; /* Exemple de taille */
+    height: auto;
+    border-radius: 50%;
+}
+
+.name-title {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.bottom-section {
+    display: flex;
+    flex-grow: 1;
+}
+
+.left-side {
+    background-color: #f8f8f8; /* Couleur de fond claire pour la partie gauche */
+    width: 30%; /* Réglage de la largeur de la section gauche */
+    border-right: 5px solid #80000088; /* Bordure droite bordeaux semi-transparente */
+    padding: 20px;
+    overflow-y: auto; /* Permettre le défilement si le contenu dépasse la hauteur */
+}
+
+.right-side {
+    background-color: #fff; /* Couleur de fond pour la partie droite */
+    width: 70%; /* Réglage de la largeur de la section droite */
+    padding: 20px;
+    overflow-y: auto; /* Permettre le défilement si le contenu dépasse la hauteur */
+}
+
+/* Styles supplémentaires pour les sections et les éléments de la page */
 h2, h3 {
     margin-bottom: 20px;
+    color: #333; /* Couleur foncée pour les titres */
 }
 
 ul {
-    list-style-type: none; /* Suppression des puces de liste */
+    list-style-type: none;
     margin-bottom: 20px;
+    padding: 0;
 }
 
 li {
@@ -27,15 +83,14 @@ li {
 }
 
 a {
-    color: #007BFF; /* Couleur bleue standard pour les liens */
-    text-decoration: none; /* Suppression du soulignement des liens */
+    color: #007BFF;
+    text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline; /* Soulignement des liens au survol */
+    text-decoration: underline;
 }
 
-/* Styles pour la navigation */
 nav {
     margin-bottom: 30px;
 }
@@ -44,13 +99,10 @@ nav a {
     margin-right: 15px;
 }
 
-/* Styles pour les sections */
 section {
-    background-color: #fff; /* Fond blanc pour chaque section */
+    background-color: #fff;
     padding: 20px;
     margin-bottom: 20px;
-    border-radius: 5px; /* Coins arrondis pour chaque section */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère pour donner de la profondeur */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
-/* Vous pouvez ajouter d'autres styles ou modifier ceux-ci selon vos préférences */
